@@ -33,6 +33,13 @@ Python 3.7 or later with the following `pip3 install -U -r requirements.txt` pac
 - `opencv-python`
 - `tqdm`
 
+# 我的环境（实验室服务器）
+- `cuda 10.0.130` 
+- `cudnn 7.6.5` 
+- `pytorch 1.2.0` 
+- `python 3.7` 
+- `torchvision 0.4.0` 
+
 # Tutorials
 
 * [GCP Quickstart](https://github.com/ultralytics/yolov3/wiki/GCP-Quickstart)
