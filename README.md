@@ -56,6 +56,9 @@ Our Jupyter [notebook](https://colab.research.google.com/github/ultralytics/yolo
 
 # Training
 
+**训练命令:** `CUDA_VISIBLE_DEVICES=3 python train.py --data data/rbc.data --cfg cfg/yolov3-tiny.cfg --epochs 300 --weights weights/yolov3-tiny.weights --device 3` 
+--data --cfg --weight等后接自己的文件
+
 **Start Training:** `python3 train.py` to begin training after downloading COCO data with `data/get_coco_dataset.sh`. Each epoch trains on 117,263 images from the train and validate COCO sets, and tests on 5000 images from the COCO validate set.
 
 **Resume Training:** `python3 train.py --resume` to resume training from `weights/last.pt`.
